@@ -8,6 +8,7 @@ function AC() {
 function Delete() {
     input.value = input.value.slice(0, input.value.length - 1);
 }
-function evaluate() {
-input.value +=eval(input.value);
+var add = input.value;
+function equals(){
+    input.value= eval(input.value)
 }
