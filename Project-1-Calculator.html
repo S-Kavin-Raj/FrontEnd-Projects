@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Project-1-Calculator.css">
+</head>
+
+<body>
+    <form class="caculator">
+        <div class="form-group">
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <button onclick="AC()" type="button">AC</button>
+            <button onclick="Delete()" type="button">←</button>
+            <button onclick="addvalue('%')" type="button" class="modulus">%</button>
+            <button onclick="addvalue('/')" type="button" class="divide">/</button>
+        </div>
+        <div class="form-group">
+            <button onclick="addvalue('7')" type="button">7</button>
+            <button onclick="addvalue('8')" type="button">8</button>
+            <button onclick="addvalue('9')" type="button">9</button>
+            <button onclick="addvalue('*')" type="button" class="multiple">*</button>
+        </div>
+        <div class="form-group">
+            <button onclick="addvalue('4')" type="button">4</button>
+            <button onclick="addvalue('5')" type="button">5</button>
+            <button onclick="addvalue('6')" type="button">6</button>
+            <button onclick="addvalue('-')" type="button" class="minus">-</button>
+        </div>
+        <div class="form-group">
+            <button onclick="addvalue('1')" type="button">1</button>
+            <button onclick="addvalue('2')" type="button">2</button>
+            <button onclick="addvalue('3')" type="button">3</button>
+            <button onclick="addvalue('+')" type="button" class="plus">+</button>
+        </div>
+        <div class="form-group">
+            <button onclick="addvalue('00')" type="button">00</button>
+            <button onclick="addvalue('0')" type="button">0</button>
+            <button onclick="addvalue('.')" type="button">.</button>
+            <button class="equal" type="button" onclick="evaluate()">=</button>
+
+        </div>
+    </form>
+    <script src="Project-1-Calculator.js"></script>
+</body>
+
+</html>
