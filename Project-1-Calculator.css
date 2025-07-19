@@ -79,7 +79,9 @@
     }
     .calculator>.form-group>.button{
         border-radius: 70%;
+        font-size: large;
     }
+
 }
 h1{
     color: aliceblue;
